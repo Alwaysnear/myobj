@@ -1,0 +1,12 @@
+{
+    "useClip": false,
+    "maxImageWidth": 1024,
+    "maxImageHeight": 2048,
+    "defaultResPath": "f:\\study_H5\\EgretWing_project\\FeiJi\\resource\\default.res.json",
+    "packGroups": {
+        "mainPages": true,
+        "lottoPages": true,
+        "game": true,
+        "loading": true
+    }
+}

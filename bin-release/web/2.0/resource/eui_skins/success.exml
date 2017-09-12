@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="successSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15e1fb9fc1d" ></w:Config>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="successbg_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="successYunshi_png" x="74" y="888"/>
+		<e:Image id="goToLotto" source="successBtn_png" y="876.5" horizontalCenter="100.5"/>
+		<e:Image source="successText_png" y="215" horizontalCenter="0"/>
+		<e:Image source="successGiftBox_png" x="124" y="460" anchorOffsetX="0" width="392" anchorOffsetY="0" height="118" visible="false"/>
+		<e:Group width="392" height="118" y="460" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133"/>
+			<e:Image source="successGift_png" y="5" left="13"/>
+			<e:Image source="successGiftBtn_png" x="251" y="29"/>
+		</e:Group>
+		<e:Image source="stop_png" x="520" y="55"/>
+		<e:Group id="share" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image source="successShare_png" y="122.6" x="-27.36" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

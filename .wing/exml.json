@@ -1,0 +1,39 @@
+{
+  "15e188720cc": {
+    "path": "mainPages\\firstPage.ts",
+    "class": "firstPage",
+    "parentPath": "",
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": -111
+      },
+      {
+        "type": "v",
+        "pos": -216
+      },
+      {
+        "type": "v",
+        "pos": -192
+      }
+    ]
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  },
+  "15e193670fe": {
+    "path": "game\\firstLevel.ts",
+    "class": "firstLevel",
+    "parentPath": ""
+  },
+  "15e221b86ba": {
+    "path": "game\\secondLevel.ts",
+    "class": "secondLevel",
+    "parentPath": ""
+  },
+  "15e225eb09e": {
+    "path": "game\\lastLevel.ts",
+    "class": "lastLevel",
+    "parentPath": ""
+  }
+}

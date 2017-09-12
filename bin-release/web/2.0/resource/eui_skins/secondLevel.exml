@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="secondLevelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="gbgAni">
+			<tween:TweenItem target="{gbg1_2}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{1136}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gbg2_2}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="gbgAni2">
+			<tween:TweenItem target="{gbg3_2}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{1136}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gbg2_2}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="15e221b86ba" ></w:Config>
+	<e:Group width="640" height="1136" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="gbg3_2" source="fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png" x="0" y="0"/>
+		<e:Image id="gbg2_2" source="fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png" x="0" y="-1136"/>
+		<e:Image id="gbg1_2" source="secondbg_jpg" horizontalCenter="0" y="0"/>
+		<e:Image id="plane" source="plane_png" y="914" anchorOffsetX="36.36" anchorOffsetY="66.67" x="319.33"/>
+		<e:Group height="69" y="1014" left="0" right="0">
+			<e:Image id="rbtn" source="right_png" y="-32" right="0"/>
+			<e:Image id="lbtn" source="left_png" x="0" y="-32"/>
+		</e:Group>
+		<e:Group id="playMusic" width="88" height="49" x="518" y="59">
+			<e:Image id="play" source="play_png" x="13.5" y="6"/>
+			<e:Image id="stop" source="stop_png" x="3" y="-4"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

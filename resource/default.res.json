@@ -1,0 +1,581 @@
+{
+	"groups": [
+		{
+			"keys": "thirdYunshi_png,thirdText_png,successYunshi_png,successText_png,successGiftBtn_png,successGiftBox_png,successGift_png,successBtn_png,successbg_png,stop_png,secondYunshi_png,play_png,gameRulesText_png,gameRulesCloseBtn_png,gameRulesBg_png,firstYunshi_png,botText_png,fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png,firstbg_jpg,meteorites1_png,meteorites2_png,meteorites3_png,bolygom_png,bolygom1_png,planet_png,planet1_png,planet2_png,satellite_png,left_png,meteorites4_png,plane_png,right_png,secondbg_jpg,ban_png,bj-j_png,bj_png,di_png,egret_icon_png,eight_png,five_png,fj_png,four_png,guang_png,kai_png,one_png,q_png,seven_png,si_png,six_png,tai_png,test_png,three_png,threeshi_png,two_one_png,xia_png,xiu_png,firstbg_png,firstBig_png,firstSideText_png,firstSm_png,firstTitle_png,lottobg_png,lottoBox_png,secondbg_png,thirdbg_png,thirdGameRule_png,thirdStartBtn_png,upArrow_png,mainBGM_mp3,mainBGM3_mp3,mainBGM2_mp3",
+			"name": "mainPages"
+		},
+		{
+			"keys": "xiu_png,xia_png,two_one_png,threeshi_png,three_png,test_png,tai_png,six_png,si_png,seven_png,q_png,one_png,kai_png,guang_png,four_png,fj_png,five_png,eight_png,egret_icon_png,di_png,bj_png,bj-j_png,ban_png,arrow_top_png,lottos_png",
+			"name": "lottoPages"
+		},
+		{
+			"keys": "secondbg_jpg,plane_png,left_png,planet2_png,planet_png,bolygom_png,firstbg_jpg,meteorites3_png,meteorites2_png,meteorites1_png,fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png,bolygom1_png,planet1_png,satellite_png,meteorites4_png,right_png,play_png,stop_png,gamebg_mp3,titlebg_png,titleText_png,kuang_png,titlrbtn_png",
+			"name": "game"
+		},
+		{
+			"keys": "loadingbg_png,loadingCont_png",
+			"name": "loading"
+		},
+		{
+			"keys": "stop2_png,play2_png,arrow_top_png,lottos_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/ban.png",
+			"type": "image",
+			"name": "ban_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/bj-j.png",
+			"type": "image",
+			"name": "bj-j_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/bj.png",
+			"type": "image",
+			"name": "bj_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/di.png",
+			"type": "image",
+			"name": "di_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/eight.png",
+			"type": "image",
+			"name": "eight_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/five.png",
+			"type": "image",
+			"name": "five_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/fj.png",
+			"type": "image",
+			"name": "fj_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/four.png",
+			"type": "image",
+			"name": "four_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/guang.png",
+			"type": "image",
+			"name": "guang_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/kai.png",
+			"type": "image",
+			"name": "kai_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/one.png",
+			"type": "image",
+			"name": "one_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/q.png",
+			"type": "image",
+			"name": "q_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/seven.png",
+			"type": "image",
+			"name": "seven_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/si.png",
+			"type": "image",
+			"name": "si_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/six.png",
+			"type": "image",
+			"name": "six_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/tai.png",
+			"type": "image",
+			"name": "tai_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/test.png",
+			"type": "image",
+			"name": "test_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/three.png",
+			"type": "image",
+			"name": "three_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/threeshi.png",
+			"type": "image",
+			"name": "threeshi_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/two_one.png",
+			"type": "image",
+			"name": "two_one_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/xia.png",
+			"type": "image",
+			"name": "xia_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/xiu.png",
+			"type": "image",
+			"name": "xiu_png"
+		},
+		{
+			"url": "assets/feiji/game/fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6.png",
+			"type": "image",
+			"name": "fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png"
+		},
+		{
+			"url": "assets/feiji/game/left.png",
+			"type": "image",
+			"name": "left_png"
+		},
+		{
+			"url": "assets/feiji/game/meteorites4.png",
+			"type": "image",
+			"name": "meteorites4_png"
+		},
+		{
+			"url": "assets/feiji/game/plane.png",
+			"type": "image",
+			"name": "plane_png"
+		},
+		{
+			"url": "assets/feiji/game/right.png",
+			"type": "image",
+			"name": "right_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/botText.png",
+			"type": "image",
+			"name": "botText_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/firstYunshi.png",
+			"type": "image",
+			"name": "firstYunshi_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/gameRulesBg.png",
+			"type": "image",
+			"name": "gameRulesBg_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/gameRulesCloseBtn.png",
+			"type": "image",
+			"name": "gameRulesCloseBtn_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/gameRulesText.png",
+			"type": "image",
+			"name": "gameRulesText_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/play.png",
+			"type": "image",
+			"name": "play_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/secondYunshi.png",
+			"type": "image",
+			"name": "secondYunshi_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/stop.png",
+			"type": "image",
+			"name": "stop_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/successBtn.png",
+			"type": "image",
+			"name": "successBtn_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/successGift.png",
+			"type": "image",
+			"name": "successGift_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/successGiftBox.png",
+			"type": "image",
+			"name": "successGiftBox_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/successGiftBtn.png",
+			"type": "image",
+			"name": "successGiftBtn_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/successText.png",
+			"type": "image",
+			"name": "successText_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/successYunshi.png",
+			"type": "image",
+			"name": "successYunshi_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/successbg.png",
+			"type": "image",
+			"name": "successbg_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/thirdText.png",
+			"type": "image",
+			"name": "thirdText_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/thirdYunshi.png",
+			"type": "image",
+			"name": "thirdYunshi_png"
+		},
+		{
+			"url": "assets/feiji/game/firstLevel/firstbg.jpg",
+			"type": "image",
+			"name": "firstbg_jpg"
+		},
+		{
+			"url": "assets/feiji/game/firstLevel/meteorites1.png",
+			"type": "image",
+			"name": "meteorites1_png"
+		},
+		{
+			"url": "assets/feiji/game/firstLevel/meteorites2.png",
+			"type": "image",
+			"name": "meteorites2_png"
+		},
+		{
+			"url": "assets/feiji/game/firstLevel/meteorites3.png",
+			"type": "image",
+			"name": "meteorites3_png"
+		},
+		{
+			"url": "assets/feiji/game/lastLevel/bolygom.png",
+			"type": "image",
+			"name": "bolygom_png"
+		},
+		{
+			"url": "assets/feiji/game/lastLevel/bolygom1.png",
+			"type": "image",
+			"name": "bolygom1_png"
+		},
+		{
+			"url": "assets/feiji/game/lastLevel/planet.png",
+			"type": "image",
+			"name": "planet_png"
+		},
+		{
+			"url": "assets/feiji/game/lastLevel/planet1.png",
+			"type": "image",
+			"name": "planet1_png"
+		},
+		{
+			"url": "assets/feiji/game/lastLevel/planet2.png",
+			"type": "image",
+			"name": "planet2_png"
+		},
+		{
+			"url": "assets/feiji/game/lastLevel/satellite.png",
+			"type": "image",
+			"name": "satellite_png"
+		},
+		{
+			"url": "assets/feiji/game/secondLevel/secondbg.jpg",
+			"type": "image",
+			"name": "secondbg_jpg"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/firstbg.png",
+			"type": "image",
+			"name": "firstbg_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/firstBig.png",
+			"type": "image",
+			"name": "firstBig_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/firstSideText.png",
+			"type": "image",
+			"name": "firstSideText_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/firstSm.png",
+			"type": "image",
+			"name": "firstSm_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/firstTitle.png",
+			"type": "image",
+			"name": "firstTitle_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/lottobg.png",
+			"type": "image",
+			"name": "lottobg_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/lottoBox.png",
+			"type": "image",
+			"name": "lottoBox_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/secondbg.png",
+			"type": "image",
+			"name": "secondbg_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/thirdbg.png",
+			"type": "image",
+			"name": "thirdbg_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/thirdGameRule.png",
+			"type": "image",
+			"name": "thirdGameRule_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/thirdStartBtn.png",
+			"type": "image",
+			"name": "thirdStartBtn_png"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/upArrow.png",
+			"type": "image",
+			"name": "upArrow_png"
+		},
+		{
+			"url": "assets/feiji/game/gamebg.mp3",
+			"type": "sound",
+			"name": "gamebg_mp3"
+		},
+		{
+			"url": "assets/feiji/game/firstLevel/titlebg.png",
+			"type": "image",
+			"name": "titlebg_png"
+		},
+		{
+			"url": "assets/feiji/game/firstLevel/titleText.png",
+			"type": "image",
+			"name": "titleText_png"
+		},
+		{
+			"url": "assets/feiji/game/firstLevel/kuang.png",
+			"type": "image",
+			"name": "kuang_png"
+		},
+		{
+			"url": "assets/feiji/game/firstLevel/titlrbtn.png",
+			"type": "image",
+			"name": "titlrbtn_png"
+		},
+		{
+			"url": "assets/feiji/mainBGM.mp3",
+			"type": "sound",
+			"name": "mainBGM_mp3"
+		},
+		{
+			"url": "assets/feiji/mainBGM3.mp3",
+			"type": "sound",
+			"name": "mainBGM3_mp3"
+		},
+		{
+			"url": "assets/feiji/mainBGM2.mp3",
+			"type": "sound",
+			"name": "mainBGM2_mp3"
+		},
+		{
+			"url": "assets/feiji/mainPagesImg/successShare.png",
+			"type": "image",
+			"name": "successShare_png"
+		},
+		{
+			"url": "assets/feiji/loadingbg.png",
+			"type": "image",
+			"name": "loadingbg_png"
+		},
+		{
+			"url": "assets/feiji/loadingCont.png",
+			"type": "image",
+			"name": "loadingCont_png"
+		},
+		{
+			"url": "assets/feiji/game/nextLevelBtn.png",
+			"type": "image",
+			"name": "nextLevelBtn_png"
+		},
+		{
+			"url": "assets/feiji/game/nextLevelYunshi.png",
+			"type": "image",
+			"name": "nextLevelYunshi_png"
+		},
+		{
+			"url": "assets/feiji/game/nextLevelbg.png",
+			"type": "image",
+			"name": "nextLevelbg_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/stop.png",
+			"type": "image",
+			"name": "stop2_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/play.png",
+			"type": "image",
+			"name": "play2_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/arrow_top.png",
+			"type": "image",
+			"name": "arrow_top_png"
+		},
+		{
+			"url": "assets/feiji/lottoPagesImg/lottos.png",
+			"type": "image",
+			"name": "lottos_png"
+		}
+	]
+}

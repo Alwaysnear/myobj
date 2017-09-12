@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="awardIndexSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="topAni">
+			<tween:TweenItem target="{top}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{775}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{750}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{775}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="bjAni">
+			<tween:TweenItem target="{bj}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{50}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{50}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="guangAni">
+			<tween:TweenItem target="{guang}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="fjAni">
+			<tween:TweenItem target="{fj}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="xiaAni">
+			<tween:TweenItem target="{xia}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{330}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{350}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{330}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="diAni">
+			<tween:TweenItem target="{di}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="taiAni">
+			<tween:TweenItem target="{tai}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="siAni">
+			<tween:TweenItem target="{si}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="xiuAni">
+			<tween:TweenItem target="{xiu}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="wuAni">
+			<tween:TweenItem target="{wu}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="sevenAni">
+			<tween:TweenItem target="{seven}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="eightAni">
+			<tween:TweenItem target="{eight}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object scaleX="{0.8}" scaleY="{0.8}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="twoAni">
+			<tween:TweenItem target="{two}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="750">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="15e1cf67d10" ></w:Config>
+	<e:Group width="640" height="1136" y="0">
+		<e:Image source="bj_png" x="0" y="0" width="640" height="1136"/>
+		<e:Image id="bj" source="bj-j_png" width="640" height="1136" horizontalCenter="0"/>
+		<e:Group id="index" width="640" height="1136">
+			<e:Image id="top" source="箭头_png" y="808.12" scaleX="1" scaleY="1" horizontalCenter="0" x="306"/>
+			<e:Image source="test_png" y="912.0000000000001" scaleX="1" scaleY="1" horizontalCenter="0" x="206"/>
+			<e:Image id="zhong" source="jiang_png" y="449.62" anchorOffsetX="250" anchorOffsetY="384" scaleX="1" scaleY="1" horizontalCenter="0.5" x="63"/>
+		</e:Group>
+		<e:Group id="two" width="640" height="1136" x="318" y="568" anchorOffsetX="318" anchorOffsetY="568" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="kai_png" x="195" y="898.5"/>
+			<e:Image id="xia" source="xia_png" x="310" y="330.3"/>
+			<e:Image id="guang" source="guang_png" x="325.26" y="571.98" anchorOffsetX="278.79" anchorOffsetY="300" scaleX="0.8" scaleY="0.8"/>
+			<e:Group id="two_two" width="640" height="1136" x="3" y="12" scaleX="1" scaleY="1" visible="false">
+				<e:Image source="one_png" y="213.61" x="148.03" scaleX="1" scaleY="1"/>
+				<e:Image id="fj" source="fj2_png" x="305.02" y="557.21" anchorOffsetX="118.18" anchorOffsetY="81.82" scaleX="0.8" scaleY="0.8"/>
+			</e:Group>
+			<e:Group id="two_one" width="640" height="1136" x="-3" y="3" visible="false">
+				<e:Image source="two_one_png" x="148" y="222.69"/>
+				<e:Image id="di" source="di_png" x="325.83" y="575.06" anchorOffsetX="133.33" anchorOffsetY="48.48" scaleX="0.8" scaleY="0.8"/>
+			</e:Group>
+			<e:Group id="two_three" width="640" height="1136" x="3" y="6" visible="false">
+				<e:Image source="three_png" x="154.94" y="217.91"/>
+				<e:Image id="tai" source="tai_png" x="305.54" y="558.71" scaleX="0.8" scaleY="0.8" anchorOffsetX="125" anchorOffsetY="64.39"/>
+			</e:Group>
+			<e:Group id="two_four" width="640" height="1136" y="0" visible="false">
+				<e:Image source="four_png" x="154.36" y="224.21"/>
+				<e:Image id="si" source="si_png" x="311.67" y="560.52" scaleX="0.8" scaleY="0.8" anchorOffsetX="117.43" anchorOffsetY="71.97"/>
+			</e:Group>
+			<e:Group id="two_five" width="640" height="1136" x="3" y="3" visible="false">
+				<e:Image source="five_png" x="151.18" y="221.21"/>
+				<e:Image id="xiu" source="xiu_png" x="302.88" y="567.09" anchorOffsetX="87.88" anchorOffsetY="109.09" scaleX="0.8" scaleY="0.8"/>
+			</e:Group>
+			<e:Group id="two_six" width="640" height="1136" x="3" y="-6" visible="false">
+				<e:Image source="six_png" x="130.09" y="227.12"/>
+				<e:Image id="wu" source="q_png" x="298.71" y="556.02" anchorOffsetX="121.21" anchorOffsetY="57.58" scaleX="0.8" scaleY="0.8"/>
+			</e:Group>
+			<e:Group id="two_seven" width="640" height="1136" y="9" visible="false">
+				<e:Image id="seven" source="threeshi_png" x="306.06" y="551.52" scaleX="0.8" scaleY="0.8" anchorOffsetX="125" anchorOffsetY="64.39"/>
+				<e:Image source="seven_png" x="133.06" y="215.06"/>
+			</e:Group>
+			<e:Group id="two_eight" width="640" height="1136" x="0" y="0" visible="false">
+				<e:Image source="eight_png" x="148.12" y="224.03"/>
+				<e:Image id="eight" source="ban_png" x="301.92" y="557.26" anchorOffsetX="136.36" anchorOffsetY="75.76" scaleX="0.8" scaleY="0.8"/>
+			</e:Group>
+		</e:Group>
+		<e:Image id="stop" source="声音关_png" x="522" y="53"/>
+		<e:Image id="play" source="声音_png" x="522" y="53" width="70" height="43"/>
+		<e:Group id="share" left="0" right="0" top="0" bottom="0" visible="false">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8" x="0" y="0" scaleX="1" scaleY="1"/>
+			<e:Image source="successShare_png" y="122.6" x="-27.36" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

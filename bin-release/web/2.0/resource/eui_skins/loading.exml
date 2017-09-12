@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="loadingbgAni">
+			<tween:TweenItem target="{loadingbg1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="3000">
+					<tween:props>
+						<e:Object y="{1136}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{loadingbg2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-1136}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="3000">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="15e2701e239" ></w:Config>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image id="loadingbg1" source="loadingbg_png" width="640" height="1136" y="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image id="loadingbg2" source="loadingbg_png" x="0" y="-1136" scaleX="1" scaleY="1"/>
+		<e:Image source="loadingCont_png" y="270" horizontalCenter="0" anchorOffsetY="0" height="863.76"/>
+		<e:Label text="35%" y="538" bold="true" textColor="0xf25757" horizontalCenter="6.5"/>
+	</e:Group>
+</e:Skin>

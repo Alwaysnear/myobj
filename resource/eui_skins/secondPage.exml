@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="secondPageSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="secondYunshiAni">
+			<tween:TweenItem target="{secondYunshi}">
+				<tween:Set/>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{526}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{536}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{546}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{536}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="upArrowAni">
+			<tween:TweenItem target="{upArrow}">
+				<tween:Set/>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{39}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{44}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{49}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{44}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="15e190d1624" ></w:Config>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="secondbg_png" x="0" top="0"/>
+		<e:Image source="musicBtn_png" y="53" x="520"/>
+		<e:Group id="moveUp" width="200" height="200" x="221" y="933" anchorOffsetY="0">
+			<e:Image source="botText_png" x="0" y="125"/>
+			<e:Image id="upArrow" source="upArrow_png" x="62.5" y="44"/>
+		</e:Group>
+		<e:Image id="secondYunshi" source="secondYunshi_png" x="77.5" y="536"/>
+		<e:Group id="playMusic" width="88" height="49" x="518" y="59" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="play" x="2" y="-4" source="stop_png" scaleX="1" scaleY="1"/>
+			<e:Image id="stop" source="play_png" x="13.5" y="6" width="67" height="40" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

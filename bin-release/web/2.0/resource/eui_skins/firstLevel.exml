@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="firstLevelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="gbgAni">
+			<tween:TweenItem target="{gbg2_1}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gbg1_1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}" />
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{1136}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="gbgAni2">
+			<tween:TweenItem target="{gbg2_1}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gbg3_1}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{1136}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="titleAni">
+			<tween:TweenItem target="{title}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{-1136}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="gbg2Ani">
+			<tween:TweenItem target="{gbg1_2}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{1136}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gbg2_2}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="gbg2Ani2">
+			<tween:TweenItem target="{gbg3_2}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{1136}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gbg2_2}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="gbg3Ani">
+			<tween:TweenItem target="{gbg1_3}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{1136}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gbg2_3}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="gbg3Ani2">
+			<tween:TweenItem target="{gbg3_3}">
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{1136}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{gbg2_3}">
+				<tween:Set/>
+				<tween:To duration="2000">
+					<tween:props>
+						<e:Object y="{0}" />
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="15e193670fe"></w:Config>
+	<e:Group id="nextLthree" left="0" right="0" top="0" bottom="0">
+		<e:Image source="nextLevelbg_png" left="0" right="0" top="0" bottom="0" />
+		<e:Image source="nextLevelYunshi_png" width="640" height="1136" y="0" x="0" />
+		<e:Image id="nextLevelThree" source="nextLevelBtn_png" x="198" y="876.5" />
+		<e:Image source="successText_png" y="215" horizontalCenter="0" />
+		<e:Group width="392" height="118" y="415" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+		<e:Group width="392" height="118" y="545" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+		<e:Group width="392" height="118" y="676" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupThree" width="640" height="1136" x="0" y="0">
+		<e:Image id="gbg3_3" source="fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png" x="0" y="0" />
+		<e:Image id="gbg2_3" source="fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png" x="0" y="-1136" />
+		<e:Image id="gbg1_3" source="lastbg_jpg" x="0" y="0" />
+		<e:Image id="plane2" source="plane_png" y="917" scaleX="1" scaleY="1" anchorOffsetX="38" anchorOffsetY="80" x="320"/>
+	</e:Group>
+	<e:Group id="nextLtwo" left="0" right="0" top="0" bottom="0">
+		<e:Image source="nextLevelbg_png" left="0" right="0" top="0" bottom="0" />
+		<e:Image source="nextLevelYunshi_png" width="640" height="1136" y="0" x="0" />
+		<e:Image id="nextLevelTwo" source="nextLevelBtn_png" x="198" y="876.5" />
+		<e:Image source="successText_png" y="215" horizontalCenter="0" />
+		<e:Group width="392" height="118" y="415" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+		<e:Group width="392" height="118" y="545" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+		<e:Group width="392" height="118" y="676" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupTwo" width="640" height="1136" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="gbg3_2" source="fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png" x="0" y="0" />
+		<e:Image id="gbg2_2" source="fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png" x="0" y="-1136" />
+		<e:Image id="gbg1_2" source="secondbg_jpg" horizontalCenter="0" y="0" />
+		<e:Image id="plane1" source="plane_png" y="917" scaleX="1" scaleY="1" anchorOffsetX="38" anchorOffsetY="80" x="320"/>
+	</e:Group>
+	<e:Group id="nextone" left="0" right="0" top="0" bottom="0">
+		<e:Image source="nextLevelbg_png" left="0" right="0" top="0" bottom="0" />
+		<e:Image source="nextLevelYunshi_png" width="640" height="1136" y="0" x="0" />
+		<e:Image id="nextLevelOne" source="nextLevelBtn_png" x="198" y="876.5" />
+		<e:Image source="successText_png" y="215" horizontalCenter="0" />
+		<e:Group width="392" height="118" y="415" alpha="1" x="124">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133"
+			         alpha="1" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+		<e:Group width="392" height="118" y="545" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+		<e:Group width="392" height="118" y="676" horizontalCenter="0">
+			<e:Image source="successGiftBox_png" y="-15" x="-23.5" anchorOffsetX="0" width="439" anchorOffsetY="0" height="133" />
+			<e:Image source="successGift_png" y="5" left="13" />
+			<e:Image source="successGiftBtn_png" x="251" y="29" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="groupOne" width="640" height="1136" horizontalCenter="0" verticalCenter="0" name="group1">
+		<e:Image id="gbg3_1" source="fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png" x="0" y="0" />
+		<e:Image id="gbg2_1" source="fa5b822f23c6d9366d2cef41ebef8b793bd840d27fd2-Sxz4Z6_png" x="0" y="-1136" />
+		<e:Image id="gbg1_1" source="firstbg_jpg" width="640" height="1136" scaleX="1" scaleY="1" fillMode="scale" y="0" x="0" />
+		<e:Image id="plane" source="plane_png" y="917" scaleX="1" scaleY="1" anchorOffsetX="38" anchorOffsetY="80" x="320"/>
+	</e:Group>
+	<e:Group id="playMusic" width="88" height="49" x="518" y="59">
+		<e:Image id="play" source="play_png" x="13.5" y="6" />
+		<e:Image id="stop" source="stop_png" x="3" y="-4" />
+	</e:Group>
+	<e:Group id="command" height="69" y="1014" left="0" right="0">
+		<e:Image id="rbtn" y="-32" scaleX="1" scaleY="1" right="0" source="right_png" />
+		<e:Image id="lbtn" y="-32" left="0" source="left_png" />
+
+
+	</e:Group>
+	<e:Group id="title" width="640" height="1136" x="0" y="0">
+		<e:Image source="titlebg_png" x="0" y="0" />
+		<e:Image source="kuang_png" y="273" anchorOffsetX="0" horizontalCenter="10.5" width="638.98" anchorOffsetY="0"
+		         height="271.21" />
+		<e:Image source="titleText_png" y="573" horizontalCenter="12" />
+		<e:Image id="playbtn" source="titlrbtn_png" x="179" y="824.52" />
+	</e:Group>
+</e:Skin>
